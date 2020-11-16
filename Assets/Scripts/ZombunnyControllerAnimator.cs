@@ -24,7 +24,7 @@ public class ZombunnyControllerAnimator : MonoBehaviour
             }
             else if (Input.GetMouseButtonDown(1))///вернёт true если нажатая нажата переданная кнопка мыши (правая)
             {
-                _animator.SetBool("IdleBool", true);///устанавливаем значение состояния ожидания (анимация ходьбы)
+                _animator.SetBool("IdleBool", false);///устанавливаем значение состояния ожидания (анимация ходьбы)
             }
             else if (Input.GetKeyDown(KeyCode.Space))///вернёт true если нажатая нажата переданная кнопка мыши (правая)
             {
